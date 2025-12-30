@@ -1,4 +1,4 @@
-# Plagiarism Checker System
+### Plagiarism Checker System
 
 A web-based plagiarism detection system that checks textual similarity between documents and reports plagiarism percentage with highlighted matching content.  
 This project is built for academic evaluation and portfolio demonstration.
