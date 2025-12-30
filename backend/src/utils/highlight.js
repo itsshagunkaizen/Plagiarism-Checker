@@ -1,14 +1,16 @@
-export const highlightMatches = (originalText, sentences) => {
-  let highlighted = originalText;
+export const highlightMatches = (text, matchedSentences = []) => {
+  if (!Array.isArray(matchedSentences)) return text;
 
-  sentences.forEach(sentence => {
-    if (sentence.length > 20) {
-      highlighted = highlighted.replace(
+  let result = text;
+
+  matchedSentences.forEach(sentence => {
+    if (sentence) {
+      result = result.replace(
         new RegExp(sentence, "gi"),
         `<mark>${sentence}</mark>`
       );
     }
   });
 
-  return highlighted;
+  return result;
 };
