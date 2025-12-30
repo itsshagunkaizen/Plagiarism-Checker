@@ -5,7 +5,7 @@ This project is built for academic evaluation and portfolio demonstration.
 
 ---
 
-## 📌 Features
+### Features
 
 - Text-based plagiarism detection
 - Sentence-level similarity comparison
@@ -16,7 +16,7 @@ This project is built for academic evaluation and portfolio demonstration.
 
 ---
 
-## 🛠️ Tech Stack
+### Tech Stack
 
 ### Frontend
 - React
@@ -32,7 +32,7 @@ This project is built for academic evaluation and portfolio demonstration.
 
 ---
 
-## ⚙️ Working Methodology
+### Working Methodology
 
 1. User submits text through the frontend
 2. Text is preprocessed:
@@ -50,7 +50,7 @@ This project is built for academic evaluation and portfolio demonstration.
 
 ---
 
-## 🚀 How to Run the Project
+### How to Run the Project
 
 ### Backend
 ```bash
