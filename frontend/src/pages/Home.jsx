@@ -25,6 +25,10 @@ export default function Home() {
             highlightedText={result.highlightedText}
           />
         )}
+        <div className="text-red-500 text-3xl font-bold">
+  Tailwind Working
+</div>
+
       </div>
     </>
   );
