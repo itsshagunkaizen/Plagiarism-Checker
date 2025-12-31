@@ -2,13 +2,15 @@ export default function TextInput({ text, setText, onCheck }) {
   return (
     <div>
       <textarea
-        rows="6"
-        style={{ width: "100%" }}
+        className="w-full border rounded p-3 h-40"
+        placeholder="Paste your text here..."
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Paste your text here..."
       />
-      <button onClick={onCheck} style={{ marginTop: "10px" }}>
+      <button
+        onClick={onCheck}
+        className="mt-3 bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700"
+      >
         Check Plagiarism
       </button>
     </div>

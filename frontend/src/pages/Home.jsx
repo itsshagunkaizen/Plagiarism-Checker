@@ -17,18 +17,15 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div style={{ padding: "20px", maxWidth: "800px", margin: "auto" }}>
+      <div className="max-w-3xl mx-auto p-6">
         <TextInput text={text} setText={setText} onCheck={handleCheck} />
+
         {result && (
           <ResultCard
             percentage={result.plagiarismPercentage}
             highlightedText={result.highlightedText}
           />
         )}
-        <div className="text-red-500 text-3xl font-bold">
-  Tailwind Working
-</div>
-
       </div>
     </>
   );
