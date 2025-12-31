@@ -27,4 +27,3 @@ export const checkPlagiarism = async (req, res) => {
     });
   }
 };
-
