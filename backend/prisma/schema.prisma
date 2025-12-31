@@ -12,3 +12,4 @@ model Document {
   content   String
   createdAt DateTime @default(now())
 }
+
