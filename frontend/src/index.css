@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+mark {
+  background-color: #fde68a;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
